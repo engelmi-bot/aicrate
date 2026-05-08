@@ -1,0 +1,7 @@
+workbox:
+  image: quay.io/aicrate/claudebox:latest
+  workspace: ~/
+  skills:
+    - quay.io/aicrate/obra/brainstorming:latest
+  agents:
+    - quay.io/aicrate/agency/engineering-code-reviewer:latest
